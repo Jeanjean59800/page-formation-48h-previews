@@ -27,4 +27,6 @@ Ouvrir `index.html` pour accéder au tableau de revue.
 
 ## Publication GitHub Pages
 
-Le dépôt inclut un workflow GitHub Pages. Après création du dépôt, sélectionner **Settings → Pages → Source: GitHub Actions** si GitHub ne l’active pas automatiquement.
+Le site statique est préparé dans la branche `gh-pages`, sans étape de build.
+
+Si l’URL GitHub Pages n’est pas encore active, ouvrir **Settings → Pages**, choisir **Deploy from a branch**, puis `gh-pages` et `/(root)`.
