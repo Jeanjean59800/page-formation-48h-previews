@@ -1,0 +1,1 @@
+function route(){let slug=decodeURIComponent(location.hash.slice(1));let s=SITES.find(x=>x.slug===slug);s?detail(s):dashboard()}addEventListener('hashchange',route);route();
